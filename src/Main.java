@@ -24,14 +24,12 @@ public class Main {
 
     public static int getNumber(Scanner scanner) {
         System.out.print(SIZETEXT);
-        int size = scanner.nextInt();
-        return size;
+        return scanner.nextInt();
     }
 
     public static String getCharacter(Scanner scanner) {
         System.out.print(CHARACTERTEXT);
-        String character = scanner.next();
-        return character;
+        return scanner.next();
     }
 
     public static void drawSquare(int size, String character) {
